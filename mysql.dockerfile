@@ -1,0 +1,9 @@
+FROM mysql:8.0
+
+# Variables de entorno
+ENV MYSQL_ROOT_PASSWORD=root
+ENV MYSQL_DATABASE=employees_db
+ENV MYSQL_USER=app_user
+ENV MYSQL_PASSWORD=123
+
+EXPOSE 3306
